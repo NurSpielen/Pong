@@ -36,7 +36,7 @@ namespace Pong
 
         public void Tick()
         {
-            if (moveUp && player.Top > 10)
+            if (moveUp && player.Top >= 4)
             {
                 player.Top -= vel;
             }

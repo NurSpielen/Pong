@@ -123,7 +123,7 @@
             // GameTimer
             // 
             this.GameTimer.Enabled = true;
-            this.GameTimer.Interval = 20;
+            this.GameTimer.Interval = 25;
             this.GameTimer.Tick += new System.EventHandler(this.Tick);
             // 
             // Form1

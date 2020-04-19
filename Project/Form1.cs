@@ -21,7 +21,7 @@ namespace Pong
 
         private Ball gameBall;
 
-        private int paddleSpeed = 12;
+        private int paddleSpeed = 10;
         private int ballXSpeed = 5;
         private int ballYSpeed = 4;
 
