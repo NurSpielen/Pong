@@ -50,7 +50,7 @@ namespace Pong
 
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
-            leftPlayer.KeyIsUp(e);
+            leftPlayer.KeyIsUp(e); 
             rightPlayer.KeyIsUp(e);
         }
     }
